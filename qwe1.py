@@ -51,6 +51,7 @@ class Example(QMainWindow, Ui_MainWindow):
             qp.end()
 
     def qwa(self):
+
         self.do_paint = True
         self.repaint()
 
